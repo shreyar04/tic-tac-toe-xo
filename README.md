@@ -45,11 +45,17 @@ tic-tac-toe-xo/
 
 🧠 Learning Outcomes
 DOM manipulation
+
 Event handling
+
 Game state management
+
 Timers and intervals
+
 Clean UI/UX design
+
 Git & GitHub workflow
+
 
 ✨ Future Enhancements
 🤖 AI opponent mode
