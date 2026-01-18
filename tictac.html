@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="tictac.css" />
+</head>
+<body>
+  <div class="player-inputs" id="name-inputs">
+    <h1>Tic Tac Toe</h1>
+    <input type="text" id="playerX" placeholder="Enter Player X Name" />
+    <input type="text" id="playerO" placeholder="Enter Player O Name" />
+    <button id="start-game-btn">Start Game</button>
+  </div>
+
+  <div class="hide" id="game-area">
+    <h2 id="turn-indicator"></h2>
+    <div id="time">20</div>
+
+    <div class="score-board">
+      <p><strong id="playerOName">Player O</strong>: <span id="scoreO">0</span></p>
+      <p><strong id="playerXName">Player X</strong>: <span id="scoreX">0</span></p>
+    </div>
+
+    <div class="game-board">
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+      <button class="box"></button>
+    </div>
+
+    <button id="reset-btn">Reset Game</button>
+  </div>
+
+  <div class="msg-container hide">
+    <p id="msg">Winner!</p>
+    <button id="new-btn">New Game</button>
+  </div>
+
+  <!-- Sounds -->
+  <audio id="win-sound" src="win.mp3" preload="auto"></audio>
+  <audio id="draw-sound" src="draw.mp3" preload="auto"></audio>
+  <audio id="click-sound" src="click.mp3" preload="auto"></audio>
+
+  <!-- Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="tictac.js"></script>
+</body>
+</html>
