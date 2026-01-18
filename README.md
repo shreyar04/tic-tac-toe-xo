@@ -28,22 +28,26 @@ This project focuses on clean UI, smooth gameplay, and enhanced user experience 
 
 ## 📂 Project Structure
 
+```bash
 tic-tac-toe-xo/
-│
 ├── index.html
 ├── tictac.css
 ├── tictac.js
 ├── win.mp3
 ├── draw.mp3
 ├── click.mp3
-├── README.md
+├── assets/
+│   └── image.png
+└── README.md
 
 ---
 
 ## 📸 Screenshots
+
 ![Tic Tac Toe Game](assets/screenshot.png)
 
 🧠 Learning Outcomes
+
 DOM manipulation
 
 Event handling
@@ -58,7 +62,11 @@ Git & GitHub workflow
 
 
 ✨ Future Enhancements
+
 🤖 AI opponent mode
+
 💾 Persistent scores using LocalStorage
+
 🎨 Theme switch (dark/light mode)
+
 🌍 Multiplayer support
